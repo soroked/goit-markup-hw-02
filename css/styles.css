@@ -6,7 +6,21 @@
   --hero-bg-color: #2e2f42;
   /* hover-focus-color */
   /* fonts */
+  --footer-text-color: #f4f4fd;
+  --footer-bg-color: #2e2f42;
 }
+
+/* default */
+
+.link {
+  text-decoration: none;
+}
+
+.list {
+  list-style: none;
+}
+
+/* common */
 
 body {
   font-family: 'Roboto', sans-serif;
@@ -41,16 +55,6 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--primary-text-color);
-}
-
-/* default */
-
-.link {
-  text-decoration: none;
-}
-
-.list {
-  list-style: none;
 }
 
 /* header */
@@ -135,8 +139,6 @@ body {
   background-color: #404bbf;
 }
 
-/* secction common */
-
 /* secction-2-advantages */
 
 /* section-3-services */
@@ -153,4 +155,14 @@ body {
 
 .services-item {
   background-color: #ffffff;
+}
+
+/* footer */
+
+.footer {
+  background-color: var(--footer-bg-color);
+}
+
+.footer-text-color {
+  color: var(--footer-text-color);
 }
