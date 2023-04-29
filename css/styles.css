@@ -1,9 +1,70 @@
 :root {
   --background-color: #ffffff;
+  --primary-text-color: #4d5ae5;
+  --secondary-text-color: #2e2f42;
+  --body-text-color: #434455;
 }
 
 body {
-  font-family: 'Roboto' serif;
-  color: #434455;
+  font-family: 'Roboto' sans-serif;
+  color: var(--body-text-color);
   background-color: var(--background-color);
+}
+
+/* default */
+
+.link {
+  text-decoration: none;
+}
+
+.list {
+  list-style: none;
+}
+
+/* header */
+
+.logo {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--primary-color);
+}
+
+.secondary-text-color {
+  color: var(--secondary-text-color);
+}
+
+.nav-item {
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--secondary-text-color);
+}
+
+.nav .link:hover,
+.nav .link:focus {
+  color: #404bbf;
+}
+
+/* this rule is duplicated in nav-conto-item */
+.nav-contact {
+  font-style: normal;
+}
+
+.nav-contact-item {
+  font-family: 'Roboto';
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--body-text-color);
+}
+
+.nav-contact-item:hover,
+.nav-contact-item:focus {
+  color: #404bbf;
 }
