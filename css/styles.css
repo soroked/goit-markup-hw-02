@@ -25,6 +25,24 @@ body {
   color: var(--title-text-color);
 }
 
+.section-subtitle {
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--title-text-color);
+}
+
+.section-text {
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--primary-text-color);
+}
+
 /* default */
 
 .link {
@@ -121,22 +139,18 @@ body {
 
 /* secction-2-advantages */
 
-.advantages-title {
-  font-family: 'Roboto';
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: var(--title-text-color);
+/* section-3-services */
+
+/* section-4-about-us */
+
+.services {
+  background-color: #f4f4fd;
 }
 
-.advantages-text {
-  font-family: 'Roboto';
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: var(--primary-text-color);
+.section-subtitle.services {
+  text-align: center;
 }
 
-/* sections-3-services */
+.services-item {
+  background-color: #ffffff;
+}
