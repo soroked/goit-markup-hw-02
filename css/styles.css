@@ -8,6 +8,9 @@
   /* fonts */
   --footer-text-color: #f4f4fd;
   --footer-bg-color: #2e2f42;
+
+  /* portfolio */
+  --button-bg-color: #f4f4fd;
 }
 
 /* default */
@@ -165,4 +168,23 @@ body {
 
 .footer-text-color {
   color: var(--footer-text-color);
+}
+
+/* portfolio */
+
+.button {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--accent-color);
+  background-color: var(--button-bg-color);
+  cursor: pointer;
+}
+
+.button:hover,
+.button:focus {
+  color: #ffffff;
+  background-color: #404bbf;
 }
