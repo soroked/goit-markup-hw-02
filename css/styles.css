@@ -14,6 +14,17 @@ body {
   background-color: var(--primary-bg-color);
 }
 
+.section-title {
+  font-family: 'Roboto';
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--title-text-color);
+}
+
 /* default */
 
 .link {
@@ -108,10 +119,7 @@ body {
 
 /* secction common */
 
-/* secction-2 */
-
-.advantages {
-}
+/* secction-2-advantages */
 
 .advantages-title {
   font-family: 'Roboto';
@@ -130,3 +138,5 @@ body {
   letter-spacing: 0.02em;
   color: var(--primary-text-color);
 }
+
+/* sections-3-services */
