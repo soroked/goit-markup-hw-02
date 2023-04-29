@@ -5,12 +5,13 @@
   --primary-text-color: #434455;
   --hero-bg-color: #2e2f42;
   /* hover-focus-color */
+  /* fonts */
 }
 
 body {
   font-family: 'Roboto', sans-serif;
   color: var(--primary-text-color);
-  --primary-bg-color: var(--primary-bg-color);
+  background-color: var(--primary-bg-color);
 }
 
 /* default */
@@ -103,4 +104,29 @@ body {
 .button:hover,
 .button:focus {
   background-color: #404bbf;
+}
+
+/* secction common */
+
+/* secction-2 */
+
+.advantages {
+}
+
+.advantages-title {
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--title-text-color);
+}
+
+.advantages-text {
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--primary-text-color);
 }
